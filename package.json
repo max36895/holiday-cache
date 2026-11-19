@@ -1,0 +1,53 @@
+{
+    "name": "holiday-cache",
+    "version": "0.1.0",
+    "description": "Праздничный Тайник — групповые игры на umbot: Тайный Санта, валентинки, дни рождения и встречи для участников из Telegram, VK, MAX и Алисы в одной комнате",
+    "keywords": [
+        "umbot",
+        "secret-santa",
+        "telegram",
+        "vk",
+        "max",
+        "alisa"
+    ],
+    "license": "MIT",
+    "main": "./dist/index.js",
+    "type": "commonjs",
+    "scripts": {
+        "build": "tsc -p tsconfig.build.json",
+        "start": "node ./dist/index.js",
+        "tick": "node ./dist/jobs/tick.js",
+        "cleanup": "node ./dist/jobs/cleanup.js",
+        "stats": "node ./dist/jobs/stats.js",
+        "loadtest": "npm run build && node ./dist/scripts/loadtest.js",
+        "test": "jest",
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint .",
+        "prettier": "prettier --write .",
+        "prettier:check": "prettier --check .",
+        "check": "npm run prettier:check && npm run typecheck && npm run lint && npm test"
+    },
+    "dependencies": {
+        "better-sqlite3": "^13.0.3",
+        "knex": "^3.3.0",
+        "umbot": "^3.1.8",
+        "umbot-knex-adapter": "^1.1.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.19.2",
+        "eslint": "^10.11.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-security": "^4.1.0",
+        "globals": "^17.13.0",
+        "jest": "^30.5.2",
+        "prettier": "^3.9.9",
+        "ts-jest": "^29.4.15",
+        "typescript": "6.0.3",
+        "typescript-eslint": "^8.71.0"
+    },
+    "engines": {
+        "node": ">=22.0.0"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "Node16",
+        "target": "ES2023",
+        "useDefineForClassFields": true,
+        "lib": ["ES2023", "DOM"],
+        "moduleResolution": "Node16",
+        "removeComments": true,
+        "sourceMap": false,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "isolatedModules": true,
+        "rootDir": ".",
+        "noEmit": true,
+        "types": ["node", "jest"],
+        "newLine": "LF"
+    },
+    "include": ["src/**/*", "tests/**/*"],
+    "exclude": ["node_modules", "dist"]
+}

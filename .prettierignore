@@ -1,0 +1,11 @@
+node_modules
+dist
+coverage
+json
+data
+package-lock.json
+stand/tmp
+stand/outbox.jsonl
+stand/rooms.sqlite
+sandbox/
+stand/

@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+.claude/
+/node_modules/
+/dist/
+/coverage/
+/logs/
+/json/
+/data/
+/data2/
+/sandbox/
+/stand/
+DEPLOY.md
+.env
+.ENV

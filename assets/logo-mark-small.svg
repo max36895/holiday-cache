@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Праздничный Тайник — упрощённая эмблема для мелких размеров">
+  <rect width="512" height="512" rx="118" fill="#20305A"/>
+  <ellipse cx="256" cy="430" rx="150" ry="14" fill="#141F3D" opacity=".55"/>
+  <rect x="136" y="266" width="240" height="142" rx="24" fill="#273960"/>
+  <rect x="152" y="266" width="36" height="142" fill="#F4B942"/>
+  <rect x="324" y="266" width="36" height="142" fill="#F4B942"/>
+  <path d="M136 266v-40c0-52 54-84 120-84s120 32 120 84v40z" fill="#4A63A0"/>
+  <rect x="136" y="252" width="240" height="16" rx="6" fill="#6E86C4"/>
+  <rect x="152" y="186" width="36" height="66" fill="#F4B942"/>
+  <rect x="324" y="186" width="36" height="66" fill="#F4B942"/>
+  <circle cx="256" cy="322" r="36" fill="#F4B942"/>
+  <circle cx="256" cy="314" r="11" fill="#20305A"/>
+  <rect x="250" y="317" width="12" height="20" rx="5" fill="#20305A"/>
+</svg>
